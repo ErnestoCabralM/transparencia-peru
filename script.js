@@ -7,6 +7,7 @@ fetch("data/pedidos.json")
     data.forEach(pedido => {
 
       let div = document.createElement("div");
+      div.className = "pedido-card";
 
       div.innerHTML = `
         <h3>${pedido.resumen}</h3>
