@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Pedido</title>
+<title>Expediente</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,12 +21,15 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
+/* =========================
+   CARGAR PEDIDO
+========================= */
+
 fetch("data/pedidos.json")
   .then(response => response.json())
   .then(data => {
 
     let pedido = data.find(p => p.id === id);
-
     let contenedor = document.getElementById("pedido");
 
     if(pedido){
@@ -40,31 +43,65 @@ fetch("data/pedidos.json")
         <p>${pedido.detalle}</p>
       `;
 
+    } else {
+
+      contenedor.innerHTML = "<p>Pedido no encontrado.</p>";
+
     }
 
 });
 
-  fetch("data/eventos.json")
+
+/* =========================
+   CARGAR EVENTOS + DOCUMENTOS
+========================= */
+
+fetch("data/eventos.json")
   .then(response => response.json())
-  .then(data => {
+  .then(eventos => {
 
-    let eventos = data.filter(e => e.pedido_id === id);
-
+    let eventosPedido = eventos.filter(e => e.pedido_id === id);
     let contenedor = document.getElementById("eventos");
 
-    eventos.forEach(evento => {
+    fetch("data/documentos.json")
+      .then(response => response.json())
+      .then(documentos => {
 
-      let div = document.createElement("div");
+        eventosPedido.forEach(evento => {
 
-      div.innerHTML = `
-        <p><b>${evento.tipo_evento}</b> — ${evento.resultado}</p>
-        <p>${evento.detalle}</p>
-        <hr>
-      `;
+          let divEvento = document.createElement("div");
 
-      contenedor.appendChild(div);
+          divEvento.innerHTML = `
+            <p><b>${evento.tipo_evento}</b> — ${evento.resultado}</p>
+            <p>${evento.detalle}</p>
+          `;
 
-    });
+          contenedor.appendChild(divEvento);
+
+          /* buscar documentos del evento */
+
+          let docs = documentos.filter(d =>
+            d.pedido_id === id && d.evento_tipo === evento.tipo_evento
+          );
+
+          docs.forEach(doc => {
+
+            let docDiv = document.createElement("div");
+
+            docDiv.innerHTML = `
+              📄 ${doc.titulo}
+            `;
+
+            contenedor.appendChild(docDiv);
+
+          });
+
+          let hr = document.createElement("hr");
+          contenedor.appendChild(hr);
+
+        });
+
+      });
 
 });
 
