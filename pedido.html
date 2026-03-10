@@ -13,6 +13,9 @@
 
 <div id="pedido"></div>
 
+<h2>Eventos del expediente</h2>
+<div id="eventos"></div>
+
 <script>
 
 const params = new URLSearchParams(window.location.search);
@@ -38,6 +41,30 @@ fetch("data/pedidos.json")
       `;
 
     }
+
+});
+
+  fetch("data/eventos.json")
+  .then(response => response.json())
+  .then(data => {
+
+    let eventos = data.filter(e => e.pedido_id === id);
+
+    let contenedor = document.getElementById("eventos");
+
+    eventos.forEach(evento => {
+
+      let div = document.createElement("div");
+
+      div.innerHTML = `
+        <p><b>${evento.tipo_evento}</b> — ${evento.resultado}</p>
+        <p>${evento.detalle}</p>
+        <hr>
+      `;
+
+      contenedor.appendChild(div);
+
+    });
 
 });
 
