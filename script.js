@@ -13,8 +13,11 @@ fetch("data/pedidos.json")
         <p><b>Entidad:</b> ${pedido.entidad}</p>
         <p><b>Resultado:</b> ${pedido.resultado}</p>
         <p><b>Estado:</b> ${pedido.estado_actual}</p>
+
+        <a href="pedido.html?id=${pedido.id}">Ver expediente</a>
+
         <hr>
-      `;
+`;
 
       contenedor.appendChild(div);
 
