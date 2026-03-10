@@ -6,4 +6,11 @@
     "titulo": "Respuesta de las FFAA",
     "archivo": ""
   }
+  {
+    "pedido_id": "T00002",
+    "evento_tipo": "Respuesta entidad",
+    "tipo": "respuesta",
+    "titulo": "Respuesta de las FFAA",
+    "archivo": ""
+  }
 ]
