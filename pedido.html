@@ -1,1 +1,48 @@
-<!-- página de pedido -->
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Pedido</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Expediente</h1>
+
+<div id="pedido"></div>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+fetch("data/pedidos.json")
+  .then(response => response.json())
+  .then(data => {
+
+    let pedido = data.find(p => p.id === id);
+
+    let contenedor = document.getElementById("pedido");
+
+    if(pedido){
+
+      contenedor.innerHTML = `
+        <h2>${pedido.resumen}</h2>
+        <p><b>Entidad:</b> ${pedido.entidad}</p>
+        <p><b>Fecha solicitud:</b> ${pedido.fecha_solicitud}</p>
+        <p><b>Resultado:</b> ${pedido.resultado}</p>
+        <p><b>Estado actual:</b> ${pedido.estado_actual}</p>
+        <p>${pedido.detalle}</p>
+      `;
+
+    }
+
+});
+
+</script>
+
+</body>
+
+</html>
