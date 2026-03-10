@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "pedido_id": "T00001",
+    "tipo": "respuesta",
+    "titulo": "Respuesta de las FFAA",
+    "archivo": ""
+  }
+]
