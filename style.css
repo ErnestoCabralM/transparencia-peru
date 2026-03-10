@@ -4,3 +4,26 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+.pedido-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.pedido-card:hover {
+  background: #f2f6ff;
+}
+
+.pedido-card h3 {
+  margin-top: 0;
+}
+
+.pedido-card a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
