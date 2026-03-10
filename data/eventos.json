@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "pedido_id": "T00001",
+    "fecha": "",
+    "tipo_evento": "Respuesta entidad",
+    "resultado": "Denegado",
+    "detalle": "Entidad deniega entrega de información"
+  }
+]
