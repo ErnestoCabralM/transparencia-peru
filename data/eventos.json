@@ -6,4 +6,11 @@
     "resultado": "Denegado",
     "detalle": "Entidad deniega entrega de información"
   }
+  {
+    "pedido_id": "T00002",
+    "fecha": "",
+    "tipo_evento": "Respuesta entidad",
+    "resultado": "Entrega completa",
+    "detalle": "La entidad entregó la información solicitada."
+  }
 ]
