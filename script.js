@@ -16,8 +16,6 @@ fetch("data/pedidos.json")
         <p><b>Estado:</b> ${pedido.estado_actual}</p>
 
         <a href="pedido.html?id=${pedido.id}">Ver expediente</a>
-
-        <hr>
 `;
 
       contenedor.appendChild(div);
