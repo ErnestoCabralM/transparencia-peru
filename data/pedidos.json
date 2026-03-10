@@ -8,4 +8,13 @@
     "resultado": "Denegado",
     "estado_actual": "Proceso judicial"
   }
+  {
+    "id": "T00002",
+    "resumen": "Reglas de conducta",
+    "detalle": "Reglas de Conducta Operativa aprobadas y/o empleadas en el marco del DS 143-2022-PCM, teniendo en cuenta los incisos 45.7 y 45.8 del DS 003-2020-DE.",
+    "entidad": "Fuerzas Armadas",
+    "fecha_solicitud": "2022-12-27",
+    "resultado": "Entregado",
+    "estado_actual": "Finalizado"
+  }
 ]
