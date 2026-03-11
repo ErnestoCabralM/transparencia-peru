@@ -33,3 +33,23 @@ fetch("data/pedidos.json")
     });
 
 });
+
+/* =========================
+CONTADOR
+========================= */
+
+Promise.all([
+  fetch("data/pedidos.json").then(r => r.json()),
+  fetch("data/documentos.json").then(r => r.json())
+]).then(([pedidos, documentos]) => {
+
+  let contenedor = document.getElementById("contador");
+
+  let totalPedidos = pedidos.length;
+  let totalDocs = documentos.length;
+
+  contenedor.innerHTML = `
+    <p><b>${totalPedidos}</b> pedidos publicados · <b>${totalDocs}</b> documentos liberados</p>
+  `;
+
+});
