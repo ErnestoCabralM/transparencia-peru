@@ -4,14 +4,14 @@
     "evento_tipo": "Encauzan pedido",
     "tipo": "encauza",
     "titulo": "Mindef traslada pedido",
-    "archivo": ""
+    "archivo": "T00001/T00001_mindef_encauza_pedido.pdf"
   },
   {
     "pedido_id": "T00001",
     "evento_tipo": "Respuesta entidad",
     "tipo": "respuesta",
     "titulo": "Respuesta de las FFAA",
-    "archivo": ""
+    "archivo": "T00001/T00001_respuesta_FFAA.pdf"
   },
   {
     "pedido_id": "T00002",
