@@ -1,6 +1,13 @@
 [
   {
     "pedido_id": "T00001",
+    "evento_tipo": "Encauza pedido",
+    "tipo": "respuesta",
+    "titulo": "Respuesta de las FFAA",
+    "archivo": ""
+  },
+  {
+    "pedido_id": "T00001",
     "evento_tipo": "Respuesta entidad",
     "tipo": "respuesta",
     "titulo": "Respuesta de las FFAA",
