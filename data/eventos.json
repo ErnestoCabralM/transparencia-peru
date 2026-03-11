@@ -2,6 +2,13 @@
   {
     "pedido_id": "T00001",
     "fecha": "2022-12-27",
+    "tipo_evento": "Presentación de pedido",
+    "resultado": "Enviado",
+    "detalle": "Ernesto Cabral pidió información pública"
+  },
+  {
+    "pedido_id": "T00001",
+    "fecha": "2022-12-27",
     "tipo_evento": "Encauzan pedido",
     "resultado": "Traslado",
     "detalle": "Ministerio de Defensa traslada pedido a FFAA"
