@@ -20,6 +20,19 @@
 
 <script>
 
+/* =========================
+   FORMATEAR FECHA
+========================= */
+
+function formatearFecha(fecha) {
+
+  if(!fecha || !fecha.includes("-")) return fecha;
+
+  let partes = fecha.split("-");
+  return `${partes[2]}/${partes[1]}/${partes[0]}`;
+
+}
+
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
@@ -39,7 +52,7 @@ fetch("data/pedidos.json")
       contenedor.innerHTML = `
         <h2>${pedido.resumen}</h2>
         <p><b>Entidad:</b> ${pedido.entidad}</p>
-        <p><b>Fecha solicitud:</b> ${pedido.fecha_solicitud}</p>
+        <p><b>Fecha solicitud:</b> ${formatearFecha(pedido.fecha_solicitud)}</p>
         <p><b>Resultado:</b> ${pedido.resultado}</p>
         <p><b>Estado actual:</b> ${pedido.estado_actual}</p>
         <p>${pedido.detalle}</p>
@@ -63,7 +76,9 @@ fetch("data/eventos.json")
   .then(eventos => {
 
     let eventosPedido = eventos.filter(e => e.pedido_id === id);
-     eventosPedido.sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
+
+    eventosPedido.sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
+
     let contenedor = document.getElementById("eventos");
 
     fetch("data/documentos.json")
@@ -75,7 +90,7 @@ fetch("data/eventos.json")
           let divEvento = document.createElement("div");
 
           divEvento.innerHTML = `
-            <p><b>${evento.fecha}</b> — ${evento.tipo_evento} — ${evento.resultado}</p>
+            <p><b>${formatearFecha(evento.fecha)}</b> — ${evento.tipo_evento} — ${evento.resultado}</p>
             <p>${evento.detalle}</p>
           `;
 
@@ -87,17 +102,17 @@ fetch("data/eventos.json")
             d.pedido_id === id && d.evento_tipo === evento.tipo_evento
           );
 
-         docs.forEach(doc => {
-         
-           let docDiv = document.createElement("div");
-         
-           docDiv.innerHTML = `
-             📄 <a href="docs/${doc.archivo}" target="_blank">${doc.titulo}</a>
-           `;
-         
-           contenedor.appendChild(docDiv);
-         
-         });
+          docs.forEach(doc => {
+
+            let docDiv = document.createElement("div");
+
+            docDiv.innerHTML = `
+              📄 <a href="docs/${doc.archivo}" target="_blank">${doc.titulo}</a>
+            `;
+
+            contenedor.appendChild(docDiv);
+
+          });
 
           let hr = document.createElement("hr");
           contenedor.appendChild(hr);
