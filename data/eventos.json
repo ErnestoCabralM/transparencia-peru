@@ -1,10 +1,17 @@
 [
   {
     "pedido_id": "T00001",
-    "fecha": "",
+    "fecha": "2022-12-27",
+    "tipo_evento": "Encauzan pedido",
+    "resultado": "Traslado",
+    "detalle": "Ministerio de Defensa traslada pedido a FFAA"
+  },
+    {
+    "pedido_id": "T00001",
+    "fecha": "2023-01-11",
     "tipo_evento": "Respuesta entidad",
     "resultado": "Denegado",
-    "detalle": "Entidad deniega entrega de información"
+    "detalle": "FFAA deniega entrega de información"
   },
   {
     "pedido_id": "T00002",
