@@ -74,7 +74,7 @@ fetch("data/eventos.json")
           let divEvento = document.createElement("div");
 
           divEvento.innerHTML = `
-            <p><b>${evento.tipo_evento}</b> — ${evento.resultado}</p>
+            <p><b>${evento.fecha}</b> — ${evento.tipo_evento} — ${evento.resultado}</p>
             <p>${evento.detalle}</p>
           `;
 
