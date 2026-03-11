@@ -86,17 +86,17 @@ fetch("data/eventos.json")
             d.pedido_id === id && d.evento_tipo === evento.tipo_evento
           );
 
-          docs.forEach(doc => {
-
-            let docDiv = document.createElement("div");
-
-            docDiv.innerHTML = `
-              📄 ${doc.titulo}
-            `;
-
-            contenedor.appendChild(docDiv);
-
-          });
+         docs.forEach(doc => {
+         
+           let docDiv = document.createElement("div");
+         
+           docDiv.innerHTML = `
+             📄 <a href="docs/${doc.archivo}" target="_blank">${doc.titulo}</a>
+           `;
+         
+           contenedor.appendChild(docDiv);
+         
+         });
 
           let hr = document.createElement("hr");
           contenedor.appendChild(hr);
