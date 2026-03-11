@@ -53,3 +53,42 @@ Promise.all([
   `;
 
 });
+
+.pedido-card{
+
+  border:1px solid #ddd;
+  border-radius:10px;
+
+  padding:18px;
+
+  background:white;
+
+  box-shadow:0 2px 6px rgba(0,0,0,0.05);
+
+  transition:transform 0.15s ease, box-shadow 0.15s ease;
+
+}
+
+.pedido-card:hover{
+
+  transform:translateY(-3px);
+
+  box-shadow:0 6px 14px rgba(0,0,0,0.1);
+
+}
+
+.pedido-card h3{
+
+  margin-top:0;
+
+}
+
+.pedido-card a{
+
+  display:inline-block;
+
+  margin-top:10px;
+
+  font-weight:bold;
+
+}
