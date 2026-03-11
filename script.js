@@ -16,7 +16,25 @@ fetch("data/pedidos.json")
     data.forEach(pedido => {
 
       let div = document.createElement("div");
-      div.className = "pedido-card";
+      let claseResultado = "";
+
+        if(pedido.resultado === "Entregado"){
+          claseResultado = "resultado-entregado";
+        }
+        
+        else if(pedido.resultado === "Denegado"){
+          claseResultado = "resultado-denegado";
+        }
+        
+        else if(pedido.resultado === "Parcial"){
+          claseResultado = "resultado-parcial";
+        }
+        
+        else if(pedido.estado_actual === "Proceso judicial"){
+          claseResultado = "resultado-judicial";
+        }
+        
+        div.className = `pedido-card ${claseResultado}`;
 
       div.innerHTML = `
         <h3>${pedido.resumen}</h3>
