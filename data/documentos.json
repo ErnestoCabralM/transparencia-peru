@@ -2,7 +2,7 @@
   {
     "pedido_id": "T00001",
     "evento_tipo": "Encauzan pedido",
-    "tipo": "respuesta",
+    "tipo": "encauza",
     "titulo": "Mindef traslada pedido",
     "archivo": ""
   },
