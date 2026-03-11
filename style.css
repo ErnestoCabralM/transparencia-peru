@@ -145,3 +145,23 @@ CONTADOR
   font-size:18px;
   color:#444;
 }
+
+/* =========================
+COLOR SEGÚN RESULTADO
+========================= */
+
+.resultado-entregado{
+  border-left:6px solid #2ecc71;
+}
+
+.resultado-denegado{
+  border-left:6px solid #e74c3c;
+}
+
+.resultado-parcial{
+  border-left:6px solid #f1c40f;
+}
+
+.resultado-judicial{
+  border-left:6px solid #555;
+}
