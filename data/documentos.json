@@ -1,9 +1,9 @@
 [
   {
     "pedido_id": "T00001",
-    "evento_tipo": "Encauza pedido",
+    "evento_tipo": "Encauzan pedido",
     "tipo": "respuesta",
-    "titulo": "Respuesta de las FFAA",
+    "titulo": "Mindef traslada pedido",
     "archivo": ""
   },
   {
