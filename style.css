@@ -101,3 +101,9 @@ TIMELINE
 .timeline-card a:hover{
   text-decoration:underline;
 }
+
+#contador{
+  margin:20px 0;
+  font-size:18px;
+  color:#444;
+}
