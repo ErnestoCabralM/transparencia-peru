@@ -88,11 +88,17 @@ fetch("data/eventos.json")
         eventosPedido.forEach(evento => {
 
           let divEvento = document.createElement("div");
-
-          divEvento.innerHTML = `
-            <p><b>${formatearFecha(evento.fecha)}</b> — ${evento.tipo_evento} — ${evento.resultado}</p>
-            <p>${evento.detalle}</p>
-          `;
+            divEvento.className = "timeline-evento";
+            
+            divEvento.innerHTML = `
+              <div class="timeline-dot"></div>
+            
+              <div class="timeline-card">
+                <div class="timeline-fecha">${formatearFecha(evento.fecha)}</div>
+                <div class="timeline-tipo">${evento.tipo_evento} — ${evento.resultado}</div>
+                <div class="timeline-detalle">${evento.detalle}</div>
+              </div>
+            `;
 
           contenedor.appendChild(divEvento);
 
@@ -110,12 +116,9 @@ fetch("data/eventos.json")
               📄 <a href="docs/${doc.archivo}" target="_blank">${doc.titulo}</a>
             `;
 
-            contenedor.appendChild(docDiv);
+            divEvento.querySelector(".timeline-card").appendChild(docDiv);
 
           });
-
-          let hr = document.createElement("hr");
-          contenedor.appendChild(hr);
 
         });
 
