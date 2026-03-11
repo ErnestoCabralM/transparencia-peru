@@ -12,6 +12,7 @@ fetch("data/pedidos.json")
       div.innerHTML = `
         <h3>${pedido.resumen}</h3>
         <p><b>Entidad:</b> ${pedido.entidad}</p>
+        <p><b>Fecha solicitud:</b> ${pedido.fecha_solicitud}</p>
         <p><b>Resultado:</b> ${pedido.resultado}</p>
         <p><b>Estado:</b> ${pedido.estado_actual}</p>
 
