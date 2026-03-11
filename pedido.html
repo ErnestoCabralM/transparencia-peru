@@ -63,6 +63,7 @@ fetch("data/eventos.json")
   .then(eventos => {
 
     let eventosPedido = eventos.filter(e => e.pedido_id === id);
+     eventosPedido.sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
     let contenedor = document.getElementById("eventos");
 
     fetch("data/documentos.json")
