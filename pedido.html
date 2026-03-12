@@ -126,7 +126,7 @@ fetch("data/eventos.json")
             let docDiv = document.createElement("div");
 
             docDiv.innerHTML = `
-              📄 <a href="docs/${doc.archivo}" target="_blank">${doc.titulo}</a>
+              <a href="docs/${doc.archivo}" target="_blank">📄 ${doc.titulo}</a>
             `;
 
             divEvento.querySelector(".timeline-card").appendChild(docDiv);
