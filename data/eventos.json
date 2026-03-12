@@ -29,7 +29,7 @@
     "orden": 4,
     "tipo_evento": "Recurso de apelación",
     "resultado": "Apelado",
-    "detalle": "Se apeló la denegatoria"
+    "detalle": "Se apeló la denegatoria de las FFAA"
   },
     {
     "pedido_id": "T00001",
@@ -37,7 +37,7 @@
     "orden": 5,
     "tipo_evento": "Recepción de apelación",
     "resultado": "Admitido",
-    "detalle": "Tribunal de Transparencia admite a trámite"
+    "detalle": "Tribunal de Transparencia admite a trámite la apelación"
   },
     {
     "pedido_id": "T00001",
