@@ -1,5 +1,19 @@
 /* =========================
-CABECERA
+TIPOGRAFÍA GENERAL
+========================= */
+
+body{
+  font-family: "Inter", sans-serif;
+  line-height:1.6;
+  color:#222;
+
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+/* =========================
+CABECERA PRINCIPAL
 ========================= */
 
 h1{
@@ -24,44 +38,20 @@ h2{
   color:#333;
 }
 
-/* =========================
-TIPOGRAFÍA
-========================= */
-
-body{
-  font-family: "Inter", sans-serif;
-  line-height:1.6;
-  color:#222;
-  
-  max-width:1100px;
-  margin:auto;
-  padding:20px;
-}
-
-h1, h2, h3{
-  font-family:"Merriweather", serif;
-}
-
-h1{
-  font-size:32px;
-  margin-bottom:5px;
-}
-
-h2{
-  font-size:22px;
-  margin-top:30px;
-}
-
 h3{
+  font-family:"Merriweather", serif;
   font-size:18px;
 }
 
+/* =========================
+LINK VOLVER
+========================= */
 
-.volver {
-  display: inline-block;
-  margin-bottom: 20px;
-  text-decoration: none;
-  font-weight: bold;
+.volver{
+  display:inline-block;
+  margin-bottom:20px;
+  text-decoration:none;
+  font-weight:bold;
 }
 
 /* =========================
@@ -75,9 +65,9 @@ FICHAS DE EXPEDIENTES
   margin-top:30px;
 }
 
-.pedido-card {
+.pedido-card{
 
-  border: 1px solid #ddd;
+  border:1px solid #ddd;
   border-radius:10px;
 
   padding:18px;
@@ -87,22 +77,20 @@ FICHAS DE EXPEDIENTES
   box-shadow:0 2px 6px rgba(0,0,0,0.05);
 
   transition:transform 0.15s ease, box-shadow 0.15s ease;
-
 }
 
-.pedido-card:hover {
+.pedido-card:hover{
 
   transform:translateY(-3px);
 
   box-shadow:0 6px 14px rgba(0,0,0,0.1);
-
 }
 
-.pedido-card h3 {
+.pedido-card h3{
   margin-top:0;
 }
 
-.pedido-card a {
+.pedido-card a{
 
   display:inline-block;
 
@@ -113,21 +101,19 @@ FICHAS DE EXPEDIENTES
   text-decoration:none;
 
   color:#0066cc;
-
 }
 
 .pedido-card a:hover{
   text-decoration:underline;
 }
 
-
 /* =========================
 TIMELINE
 ========================= */
 
 #eventos{
-  position: relative;
-  margin-left: 40px;
+  position:relative;
+  margin-left:40px;
 }
 
 #eventos::before{
