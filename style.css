@@ -126,7 +126,9 @@ TIMELINE
 /* documento */
 
 .timeline-card a{
-  display:block;
+  display:flex;
+  align-items:center;
+  gap:6px;
   margin-top:5px;
   color:#0066cc;
   text-decoration:none;
