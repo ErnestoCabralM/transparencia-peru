@@ -67,7 +67,7 @@
     "pedido_id": "T00001",
     "fecha": "2025-08-22",
     "orden": 9,
-    "tipo_evento": "Recuerso de apelación judicial",
+    "tipo_evento": "Recurso de apelación judicial",
     "resultado": "Presentado",
     "detalle": "Ministerio de Justicia apela decisión de primera instancia"
   },
