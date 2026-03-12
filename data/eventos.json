@@ -5,7 +5,7 @@
     "orden": 1,
     "tipo_evento": "Presentación de pedido",
     "resultado": "Enviado",
-    "detalle": "Ernesto Cabral pidió información pública"
+    "detalle": "Se realizó el pedido de información"
   },
   {
     "pedido_id": "T00001",
@@ -29,7 +29,7 @@
     "orden": 4,
     "tipo_evento": "Apelacion",
     "resultado": "Apelado",
-    "detalle": "Ernesto Cabral apeló denegatoria"
+    "detalle": "Se apeló la denegatoria"
   },
   {
     "pedido_id": "T00002",
