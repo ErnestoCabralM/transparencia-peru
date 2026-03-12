@@ -53,7 +53,7 @@
     "orden": 7,
     "tipo_evento": "Recurso de nulidad",
     "resultado": "Presentado",
-    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia"
+    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial"
   },
   {
     "pedido_id": "T00001",
@@ -77,7 +77,15 @@
     "orden": 10,
     "tipo_evento": "Decisión 2da instancia",
     "resultado": "Confirmación",
-    "detalle": "Poder Judicial confirma anulación de la decisión del Tribunal de Transparencia"
+    "detalle": "Poder Judicial confirma la decisión de primera instancia"
+  },
+  {
+    "pedido_id": "T00001",
+    "fecha": "2025-11-26",
+    "orden": 11,
+    "tipo_evento": "Recurso de casación",
+    "resultado": "Presentado",
+    "detalle": "Ministerio de Justicia presenta casación ante Corte Suprema"
   },
   
   {
