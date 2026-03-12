@@ -174,5 +174,13 @@
     "tipo_evento": "Decisión 2da instancia",
     "resultado": "Nulidad",
     "detalle": "Poder Judicial anula la decisión de primera instancia y ordena nueva resolución."
-  }
+  },
+  {
+    "pedido_id": "T00004",
+    "fecha": "2022-12-27",
+    "orden": 1,
+    "tipo_evento": "Presentación de pedido",
+    "resultado": "Enviado",
+    "detalle": "Se realizó el pedido de información."
+  },
 ]
