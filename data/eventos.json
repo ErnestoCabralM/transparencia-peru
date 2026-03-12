@@ -142,5 +142,13 @@
     "tipo_evento": "Decisión del Tribunal",
     "resultado": "Fundado",
     "detalle": "Tribunal de Transparencia ordena entregar información"
+  },
+  {
+    "pedido_id": "T00003",
+    "fecha": "2023-05-11",
+    "orden": 7,
+    "tipo_evento": "Recurso de nulidad",
+    "resultado": "Presentado",
+    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial"
   }
 ]
