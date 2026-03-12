@@ -87,13 +87,21 @@
     "resultado": "Presentado",
     "detalle": "Ministerio de Justicia presenta casación ante Corte Suprema"
   },
-  
+
   {
     "pedido_id": "T00002",
-    "fecha": "",
+    "fecha": "2022-12-27",
+    "orden": 1,
+    "tipo_evento": "Presentación de pedido",
+    "resultado": "Enviado",
+    "detalle": "Se realizó el pedido de información"
+  },
+  {
+    "pedido_id": "T00002",
+    "fecha": "2023-01-11",
     "orden": 2,
     "tipo_evento": "Respuesta entidad",
     "resultado": "Entrega completa",
-    "detalle": "La entidad entregó la información solicitada."
+    "detalle": "FFAA entregaron la información solicitada."
   }
 ]
