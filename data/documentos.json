@@ -61,5 +61,12 @@
     "tipo": "respuesta",
     "titulo": "Carta de las FFAA",
     "archivo": "T00002/T00002_respuesta_01.pdf"
+  },
+  {
+    "pedido_id": "T00003",
+    "evento_tipo": "Respuesta entidad",
+    "tipo": "respuesta",
+    "titulo": "Respuesta de las FFAA",
+    "archivo": "T00003/T00003_respuesta_FFAA.pdf"
   }
 ]
