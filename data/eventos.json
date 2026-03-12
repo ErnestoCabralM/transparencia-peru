@@ -35,7 +35,7 @@
     "pedido_id": "T00001",
     "fecha": "2023-01-26",
     "orden": 5,
-    "tipo_evento": "Declara admisibilidad",
+    "tipo_evento": "Recepción de apelación",
     "resultado": "Admitido",
     "detalle": "Tribunal de Transparencia admite a trámite"
   },
