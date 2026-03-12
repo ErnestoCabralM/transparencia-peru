@@ -23,6 +23,14 @@
     "resultado": "Denegado",
     "detalle": "FFAA deniega entrega de información"
   },
+    {
+    "pedido_id": "T00001",
+    "fecha": "2023-01-23",
+    "orden": 4,
+    "tipo_evento": "Apelacion",
+    "resultado": "Apelado",
+    "detalle": "Ernesto Cabral apeló denegatoria"
+  },
   {
     "pedido_id": "T00002",
     "fecha": "",
