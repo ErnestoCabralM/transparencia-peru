@@ -96,9 +96,17 @@
     "detalle": "Se realizó el pedido de información."
   },
   {
+    "pedido_id": "T00001",
+    "fecha": "2022-12-27",
+    "orden": 2,
+    "tipo_evento": "Encauzan pedido",
+    "resultado": "Traslado",
+    "detalle": "Ministerio de Defensa traslada pedido a FFAA."
+  },
+  {
     "pedido_id": "T00002",
     "fecha": "2023-01-11",
-    "orden": 2,
+    "orden": 3,
     "tipo_evento": "Respuesta entidad",
     "resultado": "Entrega completa",
     "detalle": "FFAA entregaron la información solicitada."
