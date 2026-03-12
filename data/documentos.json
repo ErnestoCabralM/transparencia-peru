@@ -29,9 +29,9 @@
   },
   {
     "pedido_id": "T00001",
-    "evento_tipo": "Declara fundado",
+    "evento_tipo": "Decisión del Tribunal",
     "tipo": "decision",
-    "titulo": "Admisión a trámite",
+    "titulo": "Declara fundado",
     "archivo": "T00001/T00001_declara_fundado.pdf"
   },
   {
