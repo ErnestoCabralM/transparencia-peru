@@ -57,6 +57,13 @@
   },
   {
     "pedido_id": "T00002",
+    "evento_tipo": "Encauzan pedido",
+    "tipo": "encauza",
+    "titulo": "Mindef traslada pedido",
+    "archivo": "T00002/T00002_mindef_encauza_pedido.pdf"
+  },
+  {
+    "pedido_id": "T00002",
     "evento_tipo": "Respuesta entidad",
     "tipo": "respuesta",
     "titulo": "Carta de las FFAA",
