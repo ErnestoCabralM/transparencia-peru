@@ -79,7 +79,18 @@ fetch("data/eventos.json")
 
     let eventosPedido = eventos.filter(e => e.pedido_id === id);
 
-    eventosPedido.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+    eventosPedido.sort((a, b) => {
+
+     let fechaA = new Date(a.fecha);
+     let fechaB = new Date(b.fecha);
+   
+     if(fechaA.getTime() === fechaB.getTime()){
+       return (b.orden || 0) - (a.orden || 0);
+     }
+   
+     return fechaB - fechaA;
+   
+   });
 
     let contenedor = document.getElementById("eventos");
 
