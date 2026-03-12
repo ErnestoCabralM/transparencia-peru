@@ -31,6 +31,14 @@
     "resultado": "Apelado",
     "detalle": "Se apeló la denegatoria"
   },
+    {
+    "pedido_id": "T00001",
+    "fecha": "2023-01-26",
+    "orden": 5,
+    "tipo_evento": "Declara admisibilidad",
+    "resultado": "Admitido",
+    "detalle": "Tribunal de Transparencia admite a trámite"
+  },
   {
     "pedido_id": "T00002",
     "fecha": "",
