@@ -1,4 +1,27 @@
 /* =========================
+BARRA SUPERIOR
+========================= */
+
+.topbar{
+
+  background:#1f3a5f;
+  color:white;
+  font-size:14px;
+  padding:8px 20px;
+  text-align:right;
+}
+
+.topbar a{
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.topbar a:hover{
+  text-decoration:underline;
+}
+
+/* =========================
 LEAD INTRODUCTORIO
 ========================= */
 
