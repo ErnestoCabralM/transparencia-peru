@@ -39,6 +39,14 @@
     "resultado": "Admitido",
     "detalle": "Tribunal de Transparencia admite a trámite"
   },
+    {
+    "pedido_id": "T00001",
+    "fecha": "2023-02-02",
+    "orden": 6,
+    "tipo_evento": "Declara fundado",
+    "resultado": "Fundado",
+    "detalle": "Tribunal de Transparencia ordena entregar información"
+  },
   {
     "pedido_id": "T00002",
     "fecha": "",
