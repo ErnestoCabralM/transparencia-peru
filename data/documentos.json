@@ -34,19 +34,26 @@
     "titulo": "Declara fundado",
     "archivo": "T00001/T00001_declara_fundado.pdf"
   },
-    {
+  {
     "pedido_id": "T00001",
     "evento_tipo": "Recurso de nulidad",
     "tipo": "recurso",
     "titulo": "Recurso de nulidad",
     "archivo": "T00001/T00001_recurso_nulidad.pdf"
   },
-    {
+  {
     "pedido_id": "T00001",
     "evento_tipo": "Decisión 1era instancia",
     "tipo": "decisión judicial",
     "titulo": "Decisión 1era instancia",
     "archivo": "T00001_fundada_primera_instancia.pdf"
+  },
+  {
+    "pedido_id": "T00001",
+    "evento_tipo": "Decisión 2da instancia",
+    "tipo": "decisión judicial",
+    "titulo": "Decisión 2da instancia",
+    "archivo": "T00001_confirmacion_segunda_instancia.pdf"
   },
   {
     "pedido_id": "T00002",
