@@ -6,15 +6,19 @@ BARRA SUPERIOR
 
   background:#1f3a5f;
   color:white;
+
   font-size:14px;
+
   padding:8px 20px;
+
   text-align:right;
+
+  width:100vw;
+
   position:relative;
   left:50%;
-  right:50%;
-  margin-left:-50vw;
-  margin-right:-50vw;
-  width:100vw;
+  transform:translateX(-50%);
+
 }
 
 .topbar a{
