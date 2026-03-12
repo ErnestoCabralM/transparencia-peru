@@ -183,4 +183,12 @@
     "resultado": "Enviado",
     "detalle": "Se realizó el pedido de información."
   },
+  {
+    "pedido_id": "T00001",
+    "fecha": "2023-01-11",
+    "orden": 2,
+    "tipo_evento": "Respuesta entidad",
+    "resultado": "Denegado",
+    "detalle": "FFAA deniega entrega de información."
+  }
 ]
