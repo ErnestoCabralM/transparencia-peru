@@ -22,7 +22,7 @@
   },
   {
     "pedido_id": "T00001",
-    "evento_tipo": "Declara admisibilidad",
+    "evento_tipo": "Recepción de apelación",
     "tipo": "admisibilidad",
     "titulo": "Admisión a trámite",
     "archivo": "T00001/T00001_admite_tramite.pdf"
