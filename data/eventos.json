@@ -5,7 +5,7 @@
     "orden": 1,
     "tipo_evento": "Presentación de pedido",
     "resultado": "Enviado",
-    "detalle": "Se realizó el pedido de información"
+    "detalle": "Se realizó el pedido de información."
   },
   {
     "pedido_id": "T00001",
@@ -13,7 +13,7 @@
     "orden": 2,
     "tipo_evento": "Encauzan pedido",
     "resultado": "Traslado",
-    "detalle": "Ministerio de Defensa traslada pedido a FFAA"
+    "detalle": "Ministerio de Defensa traslada pedido a FFAA."
   },
   {
     "pedido_id": "T00001",
@@ -21,7 +21,7 @@
     "orden": 3,
     "tipo_evento": "Respuesta entidad",
     "resultado": "Denegado",
-    "detalle": "FFAA deniega entrega de información"
+    "detalle": "FFAA deniega entrega de información."
   },
   {
     "pedido_id": "T00001",
@@ -29,7 +29,7 @@
     "orden": 4,
     "tipo_evento": "Recurso de apelación",
     "resultado": "Presentado",
-    "detalle": "Se apeló la denegatoria de las FFAA"
+    "detalle": "Se apeló la denegatoria de las FFAA."
   },
   {
     "pedido_id": "T00001",
@@ -37,7 +37,7 @@
     "orden": 5,
     "tipo_evento": "Recepción de apelación",
     "resultado": "Admitido",
-    "detalle": "Tribunal de Transparencia admite a trámite la apelación"
+    "detalle": "Tribunal de Transparencia admite a trámite la apelación."
   },
   {
     "pedido_id": "T00001",
@@ -45,7 +45,7 @@
     "orden": 6,
     "tipo_evento": "Decisión del Tribunal",
     "resultado": "Fundado",
-    "detalle": "Tribunal de Transparencia ordena entregar información"
+    "detalle": "Tribunal de Transparencia ordena entregar información."
   },
   {
     "pedido_id": "T00001",
@@ -53,7 +53,7 @@
     "orden": 7,
     "tipo_evento": "Recurso de nulidad",
     "resultado": "Presentado",
-    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial"
+    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial."
   },
   {
     "pedido_id": "T00001",
@@ -61,7 +61,7 @@
     "orden": 8,
     "tipo_evento": "Decisión 1era instancia",
     "resultado": "Fundada",
-    "detalle": "Poder Judicial anula la decisión del Tribunal de Transparencia"
+    "detalle": "Poder Judicial anula la decisión del Tribunal de Transparencia."
   },
   {
     "pedido_id": "T00001",
@@ -69,7 +69,7 @@
     "orden": 9,
     "tipo_evento": "Recurso de apelación judicial",
     "resultado": "Presentado",
-    "detalle": "Ministerio de Justicia apela decisión de primera instancia"
+    "detalle": "Ministerio de Justicia apela decisión de primera instancia."
   },
   {
     "pedido_id": "T00001",
@@ -77,7 +77,7 @@
     "orden": 10,
     "tipo_evento": "Decisión 2da instancia",
     "resultado": "Confirmación",
-    "detalle": "Poder Judicial confirma la decisión de primera instancia"
+    "detalle": "Poder Judicial confirma la decisión de primera instancia."
   },
   {
     "pedido_id": "T00001",
@@ -85,7 +85,7 @@
     "orden": 11,
     "tipo_evento": "Recurso de casación",
     "resultado": "Presentado",
-    "detalle": "Ministerio de Justicia presenta casación ante Corte Suprema"
+    "detalle": "Ministerio de Justicia presenta casación ante Corte Suprema."
   },
   {
     "pedido_id": "T00002",
@@ -93,7 +93,7 @@
     "orden": 1,
     "tipo_evento": "Presentación de pedido",
     "resultado": "Enviado",
-    "detalle": "Se realizó el pedido de información"
+    "detalle": "Se realizó el pedido de información."
   },
   {
     "pedido_id": "T00002",
@@ -109,7 +109,7 @@
     "orden": 1,
     "tipo_evento": "Presentación de pedido",
     "resultado": "Enviado",
-    "detalle": "Se realizó el pedido de información"
+    "detalle": "Se realizó el pedido de información."
   },
   {
     "pedido_id": "T00003",
@@ -117,7 +117,7 @@
     "orden": 2,
     "tipo_evento": "Respuesta entidad",
     "resultado": "Denegado",
-    "detalle": "FFAA deniega entrega de información"
+    "detalle": "FFAA deniega entrega de información."
   },
   {
     "pedido_id": "T00003",
@@ -125,7 +125,7 @@
     "orden": 3,
     "tipo_evento": "Recurso de apelación",
     "resultado": "Presentado",
-    "detalle": "Se apeló la denegatoria de las FFAA"
+    "detalle": "Se apeló la denegatoria de las FFAA."
   },
   {
     "pedido_id": "T00003",
@@ -133,7 +133,7 @@
     "orden": 4,
     "tipo_evento": "Recepción de apelación",
     "resultado": "Admitido",
-    "detalle": "Tribunal de Transparencia admite a trámite la apelación"
+    "detalle": "Tribunal de Transparencia admite a trámite la apelación."
   },
   {
     "pedido_id": "T00003",
@@ -141,7 +141,7 @@
     "orden": 5,
     "tipo_evento": "Decisión del Tribunal",
     "resultado": "Fundado",
-    "detalle": "Tribunal de Transparencia ordena entregar información"
+    "detalle": "Tribunal de Transparencia ordena entregar información."
   },
   {
     "pedido_id": "T00003",
@@ -149,7 +149,7 @@
     "orden": 6,
     "tipo_evento": "Recurso de nulidad",
     "resultado": "Presentado",
-    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial"
+    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial."
   },
 {
     "pedido_id": "T00003",
@@ -157,7 +157,7 @@
     "orden": 7,
     "tipo_evento": "Decisión 1era instancia",
     "resultado": "Infundada",
-    "detalle": "Poder Judicial declara infundado el pedido del Ministerio de Defensa"
+    "detalle": "Poder Judicial declara infundado el pedido del Ministerio de Defensa."
   },
   {
     "pedido_id": "T00003",
@@ -165,7 +165,7 @@
     "orden": 8,
     "tipo_evento": "Recurso de apelación judicial",
     "resultado": "Presentado",
-    "detalle": "Ministerio de Defensa apela decisión de primera instancia"
+    "detalle": "Ministerio de Defensa apela decisión de primera instancia."
   },
   {
     "pedido_id": "T00003",
@@ -173,6 +173,6 @@
     "orden": 9,
     "tipo_evento": "Decisión 2da instancia",
     "resultado": "Nulidad",
-    "detalle": "Poder Judicial anula la decisión de primera instancia y ordena nueva resolución"
+    "detalle": "Poder Judicial anula la decisión de primera instancia y ordena nueva resolución."
   }
 ]
