@@ -34,6 +34,13 @@
     "titulo": "Declara fundado",
     "archivo": "T00001/T00001_declara_fundado.pdf"
   },
+    {
+    "pedido_id": "T00001",
+    "evento_tipo": "Recurso de nulidad",
+    "tipo": "recurso",
+    "titulo": "Recurso de nulidad",
+    "archivo": "T00001/T00001_recurso_nulidad.pdf"
+  },
   {
     "pedido_id": "T00002",
     "evento_tipo": "Respuesta entidad",
