@@ -72,6 +72,15 @@
     "detalle": "Ministerio de Justicia apela decisión de primera instancia"
   },
   {
+    "pedido_id": "T00001",
+    "fecha": "2025-10-29",
+    "orden": 10,
+    "tipo_evento": "Decisión 2da instancia",
+    "resultado": "Confirmación",
+    "detalle": "Poder Judicial confirma anulación de la decisión del Tribunal de Transparencia"
+  },
+  
+  {
     "pedido_id": "T00002",
     "fecha": "",
     "orden": 2,
