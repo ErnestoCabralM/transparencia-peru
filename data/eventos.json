@@ -27,7 +27,7 @@
     "pedido_id": "T00001",
     "fecha": "2023-01-23",
     "orden": 4,
-    "tipo_evento": "Apelacion",
+    "tipo_evento": "Recurso de apelación",
     "resultado": "Apelado",
     "detalle": "Se apeló la denegatoria"
   },
