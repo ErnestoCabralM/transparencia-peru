@@ -23,9 +23,16 @@
   {
     "pedido_id": "T00001",
     "evento_tipo": "Declara admisibilidad",
-    "tipo": "apelacion",
+    "tipo": "admisibilidad",
     "titulo": "Admisión a trámite",
     "archivo": "T00001/T00001_admite_tramite.pdf"
+  },
+  {
+    "pedido_id": "T00001",
+    "evento_tipo": "Declara fundado",
+    "tipo": "decision",
+    "titulo": "Admisión a trámite",
+    "archivo": "T00001/T00001_declara_fundado.pdf"
   },
   {
     "pedido_id": "T00002",
