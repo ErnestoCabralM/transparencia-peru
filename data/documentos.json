@@ -62,11 +62,4 @@
     "titulo": "Carta de las FFAA",
     "archivo": "T00002/T00002_respuesta_01.pdf"
   }
-  {
-    "pedido_id": "T00002",
-    "evento_tipo": "Respuesta entidad",
-    "tipo": "respuesta",
-    "titulo": "Reglas de conducta",
-    "archivo": "T00002/T00002_respuesta_02.pdf"
-  }
 ]
