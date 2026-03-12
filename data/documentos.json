@@ -41,6 +41,13 @@
     "titulo": "Recurso de nulidad",
     "archivo": "T00001/T00001_recurso_nulidad.pdf"
   },
+    {
+    "pedido_id": "T00001",
+    "evento_tipo": "Decisión 1era instancia",
+    "tipo": "decisión judicial",
+    "titulo": "Decisión 1era instancia",
+    "archivo": "T00001_fundada_primera_instancia.pdf"
+  },
   {
     "pedido_id": "T00002",
     "evento_tipo": "Respuesta entidad",
