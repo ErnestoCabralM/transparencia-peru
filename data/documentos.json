@@ -117,5 +117,12 @@
     "tipo": "decisión judicial",
     "titulo": "Decisión 2da instancia",
     "archivo": "T00003/T00003_nulidad_segunda_instancia.pdf"
+  },
+  {
+    "pedido_id": "T00004",
+    "evento_tipo": "Respuesta entidad",
+    "tipo": "respuesta",
+    "titulo": "Respuesta de las FFAA",
+    "archivo": "T00004/T00004_respuesta_FFAA.pdf"
   }
 ]
