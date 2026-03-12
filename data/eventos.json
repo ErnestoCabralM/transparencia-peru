@@ -15,7 +15,7 @@
     "resultado": "Traslado",
     "detalle": "Ministerio de Defensa traslada pedido a FFAA"
   },
-    {
+  {
     "pedido_id": "T00001",
     "fecha": "2023-01-11",
     "orden": 3,
@@ -23,15 +23,15 @@
     "resultado": "Denegado",
     "detalle": "FFAA deniega entrega de información"
   },
-    {
+  {
     "pedido_id": "T00001",
     "fecha": "2023-01-23",
     "orden": 4,
     "tipo_evento": "Recurso de apelación",
-    "resultado": "Apelado",
+    "resultado": "Presentado",
     "detalle": "Se apeló la denegatoria de las FFAA"
   },
-    {
+  {
     "pedido_id": "T00001",
     "fecha": "2023-01-26",
     "orden": 5,
@@ -39,7 +39,7 @@
     "resultado": "Admitido",
     "detalle": "Tribunal de Transparencia admite a trámite la apelación"
   },
-    {
+  {
     "pedido_id": "T00001",
     "fecha": "2023-02-02",
     "orden": 6,
@@ -47,7 +47,7 @@
     "resultado": "Fundado",
     "detalle": "Tribunal de Transparencia ordena entregar información"
   },
-      {
+  {
     "pedido_id": "T00001",
     "fecha": "2023-03-08",
     "orden": 7,
@@ -55,13 +55,21 @@
     "resultado": "Presentado",
     "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia"
   },
-      {
+  {
     "pedido_id": "T00001",
     "fecha": "2025-08-08",
     "orden": 8,
     "tipo_evento": "Decisión 1era instancia",
     "resultado": "Fundada",
     "detalle": "Poder Judicial anula la decisión del Tribunal de Transparencia"
+  },
+  {
+    "pedido_id": "T00001",
+    "fecha": "2025-08-22",
+    "orden": 9,
+    "tipo_evento": "Recuerso de apelación judicial",
+    "resultado": "Presentado",
+    "detalle": "Ministerio de Justicia apela decisión de primera instancia"
   },
   {
     "pedido_id": "T00002",
