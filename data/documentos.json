@@ -14,6 +14,13 @@
     "archivo": "T00001/T00001_respuesta_FFAA.pdf"
   },
   {
+    "pedido_id": "T00001",
+    "evento_tipo": "Apelacion",
+    "tipo": "apelacion",
+    "titulo": "Apelación contra denegatoria",
+    "archivo": "T00001/T00001_apelacion.pdf"
+  },  
+  {
     "pedido_id": "T00002",
     "evento_tipo": "Respuesta entidad",
     "tipo": "respuesta",
