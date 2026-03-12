@@ -96,7 +96,7 @@
     "detalle": "Se realizó el pedido de información."
   },
   {
-    "pedido_id": "T00001",
+    "pedido_id": "T00002",
     "fecha": "2022-12-27",
     "orden": 2,
     "tipo_evento": "Encauzan pedido",
