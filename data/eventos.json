@@ -87,7 +87,6 @@
     "resultado": "Presentado",
     "detalle": "Ministerio de Justicia presenta casación ante Corte Suprema"
   },
-
   {
     "pedido_id": "T00002",
     "fecha": "2022-12-27",
@@ -119,5 +118,5 @@
     "tipo_evento": "Respuesta entidad",
     "resultado": "Denegado",
     "detalle": "FFAA deniega entrega de información"
-  },
+  }
 ]
