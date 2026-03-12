@@ -121,8 +121,16 @@
   },
   {
     "pedido_id": "T00003",
-    "fecha": "2023-01-11",
+    "fecha": "2022-12-27",
     "orden": 2,
+    "tipo_evento": "Encauzan pedido",
+    "resultado": "Traslado",
+    "detalle": "Ministerio de Defensa traslada pedido a FFAA."
+  },
+  {
+    "pedido_id": "T00003",
+    "fecha": "2023-01-11",
+    "orden": 3,
     "tipo_evento": "Respuesta entidad",
     "resultado": "Denegado",
     "detalle": "FFAA deniega entrega de información."
@@ -130,7 +138,7 @@
   {
     "pedido_id": "T00003",
     "fecha": "2023-02-23",
-    "orden": 3,
+    "orden": 4,
     "tipo_evento": "Recurso de apelación",
     "resultado": "Presentado",
     "detalle": "Se apeló la denegatoria de las FFAA."
@@ -138,7 +146,7 @@
   {
     "pedido_id": "T00003",
     "fecha": "2023-02-23",
-    "orden": 4,
+    "orden": 5,
     "tipo_evento": "Recepción de apelación",
     "resultado": "Admitido",
     "detalle": "Tribunal de Transparencia admite a trámite la apelación."
@@ -146,7 +154,7 @@
   {
     "pedido_id": "T00003",
     "fecha": "2023-03-09",
-    "orden": 5,
+    "orden": 6,
     "tipo_evento": "Decisión del Tribunal",
     "resultado": "Fundado",
     "detalle": "Tribunal de Transparencia ordena entregar información."
@@ -154,7 +162,7 @@
   {
     "pedido_id": "T00003",
     "fecha": "2023-05-11",
-    "orden": 6,
+    "orden": 7,
     "tipo_evento": "Recurso de nulidad",
     "resultado": "Presentado",
     "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial."
@@ -162,7 +170,7 @@
 {
     "pedido_id": "T00003",
     "fecha": "2024-08-14",
-    "orden": 7,
+    "orden": 8,
     "tipo_evento": "Decisión 1era instancia",
     "resultado": "Infundada",
     "detalle": "Poder Judicial declara infundado el pedido del Ministerio de Defensa."
@@ -170,7 +178,7 @@
   {
     "pedido_id": "T00003",
     "fecha": "2024-08-28",
-    "orden": 8,
+    "orden": 9,
     "tipo_evento": "Recurso de apelación judicial",
     "resultado": "Presentado",
     "detalle": "Ministerio de Defensa apela decisión de primera instancia."
@@ -178,7 +186,7 @@
   {
     "pedido_id": "T00003",
     "fecha": "2024-12-17",
-    "orden": 9,
+    "orden": 10,
     "tipo_evento": "Decisión 2da instancia",
     "resultado": "Nulidad",
     "detalle": "Poder Judicial anula la decisión de primera instancia y ordena nueva resolución."
