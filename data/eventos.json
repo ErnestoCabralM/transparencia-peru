@@ -214,5 +214,13 @@
     "tipo_evento": "Respuesta entidad",
     "resultado": "Denegado",
     "detalle": "FFAA deniega entrega de información."
+  },
+  {
+    "pedido_id": "T00004",
+    "fecha": "2023-01-27",
+    "orden": 4,
+    "tipo_evento": "Recurso de apelación",
+    "resultado": "Presentado",
+    "detalle": "Se apeló la denegatoria de las FFAA."
   }
 ]
