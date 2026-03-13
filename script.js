@@ -5,6 +5,13 @@ function formatearFecha(fecha) {
   let partes = fecha.split("-");
   return `${partes[2]}/${partes[1]}/${partes[0]}`;
 
+};
+
+function normalizarTexto(texto){
+  return texto
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 }
 
 /* =========================
@@ -82,12 +89,12 @@ if(buscador){
 
   buscador.addEventListener("input", function(){
 
-    let texto = this.value.toLowerCase();
+    let texto = normalizarTexto(this.value);
 
     let filtrados = pedidosGlobal.filter(p =>
 
-      p.resumen.toLowerCase().includes(texto) ||
-      p.entidad.toLowerCase().includes(texto)
+      normalizarTexto(p.resumen).includes(texto) ||
+      normalizarTexto(p.entidad).includes(texto)
 
     );
 
