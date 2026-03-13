@@ -222,5 +222,21 @@
     "tipo_evento": "Recurso de apelación",
     "resultado": "Presentado",
     "detalle": "Se apeló la denegatoria de las FFAA."
+  },
+{
+    "pedido_id": "T00004",
+    "fecha": "2023-01-27",
+    "orden": 5,
+    "tipo_evento": "Recepción de apelación",
+    "resultado": "Admitido",
+    "detalle": "Tribunal de Transparencia admite a trámite la apelación."
+  },
+  {
+    "pedido_id": "T00004",
+    "fecha": "2023-02-06",
+    "orden": 6,
+    "tipo_evento": "Decisión del Tribunal",
+    "resultado": "Fundado",
+    "detalle": "Tribunal de Transparencia ordena entregar información."
   }
 ]
