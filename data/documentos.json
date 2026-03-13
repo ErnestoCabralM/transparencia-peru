@@ -138,5 +138,12 @@
     "tipo": "respuesta",
     "titulo": "Respuesta de las FFAA",
     "archivo": "T00004/T00004_respuesta_FFAA.pdf"
+  },
+  {
+    "pedido_id": "T00004",
+    "evento_tipo": "Recurso de apelación",
+    "tipo": "apelacion",
+    "titulo": "Apelación contra denegatoria",
+    "archivo": "T00004/T00004_recurso_apelacion.pdf"
   }
 ]
