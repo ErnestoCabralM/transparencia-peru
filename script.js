@@ -71,3 +71,14 @@ Promise.all([
   `;
 
 });
+
+/* =========================
+QR YAPE
+========================= */
+function mostrarQR(){
+  document.getElementById("qr-modal").style.display="flex";
+}
+
+function cerrarQR(){
+  document.getElementById("qr-modal").style.display="none";
+}
