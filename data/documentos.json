@@ -162,9 +162,9 @@
   },
   {
     "pedido_id": "T00004",
-    "evento_tipo": "Recurso de nulidad",
-    "tipo": "recurso",
-    "titulo": "Recurso de nulidad",
-    "archivo": "T00004/T00004_recurso_nulidad.pdf"
+    "evento_tipo": "Recepción de nulidad",
+    "tipo": "admisibilidad",
+    "titulo": "Admisión a trámite",
+    "archivo": "T00004/T00004_admiten_recurso_nulidad.pdf"
   }
 ]
