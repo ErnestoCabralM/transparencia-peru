@@ -246,5 +246,29 @@
     "tipo_evento": "Recepción de nulidad",
     "resultado": "Admitido",
     "detalle": "Poder Judicial admite a trámite recurso de nulidad del Ministerio de Defensa."
+  },
+{
+    "pedido_id": "T00004",
+    "fecha": "2024-12-05",
+    "orden": 8,
+    "tipo_evento": "Decisión 1era instancia",
+    "resultado": "Fundada",
+    "detalle": "Poder Judicial anula la decisión del Tribunal de Transparencia."
+  },
+  {
+    "pedido_id": "T00004",
+    "fecha": "2025-01-09",
+    "orden": 9,
+    "tipo_evento": "Recurso de apelación judicial",
+    "resultado": "Presentado",
+    "detalle": "Ministerio de Justicia apela decisión de primera instancia."
+  },
+  {
+    "pedido_id": "T00004",
+    "fecha": "2026-01-30",
+    "orden": 10,
+    "tipo_evento": "Decisión 2da instancia",
+    "resultado": "Confirmación",
+    "detalle": "Poder Judicial confirma la decisión de primera instancia."
   }
 ]
