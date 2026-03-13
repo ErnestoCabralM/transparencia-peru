@@ -159,5 +159,12 @@
     "tipo": "decision",
     "titulo": "Declara fundado",
     "archivo": "T00004/T00004_declara_fundado.pdf"
+  },
+  {
+    "pedido_id": "T00004",
+    "evento_tipo": "Recurso de nulidad",
+    "tipo": "recurso",
+    "titulo": "Recurso de nulidad",
+    "archivo": "T00004/T00004_recurso_nulidad.pdf"
   }
 ]
