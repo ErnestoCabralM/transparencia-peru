@@ -145,5 +145,19 @@
     "tipo": "apelacion",
     "titulo": "Apelación contra denegatoria",
     "archivo": "T00004/T00004_recurso_apelacion.pdf"
+  },
+{
+    "pedido_id": "T00004",
+    "evento_tipo": "Recepción de apelación",
+    "tipo": "admisibilidad",
+    "titulo": "Admisión a trámite",
+    "archivo": "T00004/T00004_admite_tramite.pdf"
+  },
+  {
+    "pedido_id": "T00004",
+    "evento_tipo": "Decisión del Tribunal",
+    "tipo": "decision",
+    "titulo": "Declara fundado",
+    "archivo": "T00004/T00004_declara_fundado.pdf"
   }
 ]
