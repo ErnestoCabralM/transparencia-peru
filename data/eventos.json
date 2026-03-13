@@ -243,8 +243,8 @@
     "pedido_id": "T00004",
     "fecha": "2024-12-18",
     "orden": 7,
-    "tipo_evento": "Recurso de nulidad",
-    "resultado": "Presentado",
-    "detalle": "Ministerio de Defensa pide anular decisión del Tribunal de Transparencia al Poder Judicial."
+    "tipo_evento": "Recepción de nulidad",
+    "resultado": "Admitido",
+    "detalle": "Poder Judicial admite a trámite recurso de nulidad del Ministerio de Defensa."
   }
 ]
