@@ -326,3 +326,21 @@ QR YAPE
   cursor:pointer;
   font-size:16px;
 }
+
+/* =========================
+BUSCADOR
+========================= */
+
+.buscador{
+  margin:20px 0;
+  text-align:center;
+}
+
+#buscador{
+  width:100%;
+  max-width:400px;
+  padding:10px;
+  font-size:16px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
