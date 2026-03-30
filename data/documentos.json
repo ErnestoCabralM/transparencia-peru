@@ -184,7 +184,7 @@
   {
     "pedido_id": "T00004",
     "evento_tipo": "Recurso de casación",
-    "tipo": "apelación",
+    "tipo": "recurso",
     "titulo": "Recurso de casación - Presentado",
     "archivo": "T00004/T00004_recurso_casacion.pdf"
   }
