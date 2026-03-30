@@ -270,5 +270,13 @@
     "tipo_evento": "Decisión 2da instancia",
     "resultado": "Confirmación",
     "detalle": "Poder Judicial confirma la decisión de primera instancia."
+  },
+  {
+    "pedido_id": "T00004",
+    "fecha": "2026-03-20",
+    "orden": 11,
+    "tipo_evento": "Recurso de casación",
+    "resultado": "Presentado",
+    "detalle": "Ministerio de Justicia presenta casación ante Corte Suprema."
   }
 ]
