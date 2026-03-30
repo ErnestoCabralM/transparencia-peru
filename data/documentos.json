@@ -180,5 +180,12 @@
     "tipo": "decisión judicial",
     "titulo": "Decisión 2da instancia",
     "archivo": "T00004/T00004_confirmacion_segunda_instancia.pdf"
+  },
+  {
+    "pedido_id": "T00004",
+    "evento_tipo": "Recurso de casación",
+    "tipo": "apelación",
+    "titulo": "Recurso de casación - Presentado",
+    "archivo": "T00004/T00004_recurso_casacion.pdf"
   }
 ]
